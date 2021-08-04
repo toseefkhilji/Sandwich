@@ -8,18 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		D251F46D26B410360050E874 /* SandwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251F46C26B410360050E874 /* SandwichApp.swift */; };
-		D251F46F26B410360050E874 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251F46E26B410360050E874 /* ContentView.swift */; };
+		D251F46F26B410360050E874 /* SandwichListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251F46E26B410360050E874 /* SandwichListView.swift */; };
 		D251F47126B4103A0050E874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D251F47026B4103A0050E874 /* Assets.xcassets */; };
 		D251F47426B4103A0050E874 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D251F47326B4103A0050E874 /* Preview Assets.xcassets */; };
+		D251F48026B4217C0050E874 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251F47F26B4217C0050E874 /* SandwichDetail.swift */; };
+		D2DFA9F526BA6BEA00A31922 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DFA9F426BA6BEA00A31922 /* WidgetKit.framework */; };
+		D2DFA9F726BA6BEA00A31922 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DFA9F626BA6BEA00A31922 /* SwiftUI.framework */; };
+		D2DFA9FA26BA6BEA00A31922 /* SandwichWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DFA9F926BA6BEA00A31922 /* SandwichWidget.swift */; };
+		D2DFA9FC26BA6BED00A31922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DFA9FB26BA6BED00A31922 /* Assets.xcassets */; };
+		D2DFAA0026BA6BED00A31922 /* SandwichWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2DFA9F226BA6BEA00A31922 /* SandwichWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D2FA9D2D26B91C4100374BE1 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251F47C26B414520050E874 /* Sandwich.swift */; };
+		D2FA9D3426B91F3D00374BE1 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA9D3326B91F3D00374BE1 /* SandwichStore.swift */; };
+		D2FA9D3926B93F0700374BE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA9D3826B93F0700374BE1 /* ContentView.swift */; };
+		D2FA9D3C26B940AA00374BE1 /* SandwichGallary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FA9D3B26B940AA00374BE1 /* SandwichGallary.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DFA9FE26BA6BED00A31922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D251F46126B410360050E874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DFA9F126BA6BEA00A31922;
+			remoteInfo = SandwichWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2DFAA0426BA6BED00A31922 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D2DFAA0026BA6BED00A31922 /* SandwichWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D251F46926B410360050E874 /* Sandwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251F46C26B410360050E874 /* SandwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichApp.swift; sourceTree = "<group>"; };
-		D251F46E26B410360050E874 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D251F46E26B410360050E874 /* SandwichListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichListView.swift; sourceTree = "<group>"; };
 		D251F47026B4103A0050E874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D251F47326B4103A0050E874 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D251F47526B4103A0050E874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D251F47C26B414520050E874 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		D251F47F26B4217C0050E874 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
+		D2DFA9F226BA6BEA00A31922 /* SandwichWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SandwichWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DFA9F426BA6BEA00A31922 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D2DFA9F626BA6BEA00A31922 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D2DFA9F926BA6BEA00A31922 /* SandwichWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichWidget.swift; sourceTree = "<group>"; };
+		D2DFA9FB26BA6BED00A31922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DFA9FD26BA6BED00A31922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FA9D2F26B91D9500374BE1 /* Sandwich.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sandwich.entitlements; sourceTree = "<group>"; };
+		D2FA9D3326B91F3D00374BE1 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
+		D2FA9D3826B93F0700374BE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D2FA9D3B26B940AA00374BE1 /* SandwichGallary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichGallary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +76,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2DFA9EF26BA6BEA00A31922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DFA9F726BA6BEA00A31922 /* SwiftUI.framework in Frameworks */,
+				D2DFA9F526BA6BEA00A31922 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				D251F46B26B410360050E874 /* Sandwich */,
+				D2DFA9F826BA6BEA00A31922 /* SandwichWidget */,
+				D2DFA9F326BA6BEA00A31922 /* Frameworks */,
 				D251F46A26B410360050E874 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				D251F46926B410360050E874 /* Sandwich.app */,
+				D2DFA9F226BA6BEA00A31922 /* SandwichWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +110,14 @@
 		D251F46B26B410360050E874 /* Sandwich */ = {
 			isa = PBXGroup;
 			children = (
+				D2FA9D2F26B91D9500374BE1 /* Sandwich.entitlements */,
 				D251F46C26B410360050E874 /* SandwichApp.swift */,
-				D251F46E26B410360050E874 /* ContentView.swift */,
+				D251F47C26B414520050E874 /* Sandwich.swift */,
+				D2FA9D3826B93F0700374BE1 /* ContentView.swift */,
+				D251F46E26B410360050E874 /* SandwichListView.swift */,
+				D251F47F26B4217C0050E874 /* SandwichDetail.swift */,
+				D2FA9D3B26B940AA00374BE1 /* SandwichGallary.swift */,
+				D2FA9D3326B91F3D00374BE1 /* SandwichStore.swift */,
 				D251F47026B4103A0050E874 /* Assets.xcassets */,
 				D251F47526B4103A0050E874 /* Info.plist */,
 				D251F47226B4103A0050E874 /* Preview Content */,
@@ -69,6 +133,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D2DFA9F326BA6BEA00A31922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2DFA9F426BA6BEA00A31922 /* WidgetKit.framework */,
+				D2DFA9F626BA6BEA00A31922 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DFA9F826BA6BEA00A31922 /* SandwichWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D2DFA9F926BA6BEA00A31922 /* SandwichWidget.swift */,
+				D2DFA9FB26BA6BED00A31922 /* Assets.xcassets */,
+				D2DFA9FD26BA6BED00A31922 /* Info.plist */,
+			);
+			path = SandwichWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +162,34 @@
 				D251F46526B410360050E874 /* Sources */,
 				D251F46626B410360050E874 /* Frameworks */,
 				D251F46726B410360050E874 /* Resources */,
+				D2DFAA0426BA6BED00A31922 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D2DFA9FF26BA6BED00A31922 /* PBXTargetDependency */,
 			);
 			name = Sandwich;
 			productName = Sandwich;
 			productReference = D251F46926B410360050E874 /* Sandwich.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D2DFA9F126BA6BEA00A31922 /* SandwichWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DFAA0126BA6BED00A31922 /* Build configuration list for PBXNativeTarget "SandwichWidgetExtension" */;
+			buildPhases = (
+				D2DFA9EE26BA6BEA00A31922 /* Sources */,
+				D2DFA9EF26BA6BEA00A31922 /* Frameworks */,
+				D2DFA9F026BA6BEA00A31922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandwichWidgetExtension;
+			productName = SandwichWidgetExtension;
+			productReference = D2DFA9F226BA6BEA00A31922 /* SandwichWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +201,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					D251F46826B410360050E874 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D2DFA9F126BA6BEA00A31922 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -117,6 +222,7 @@
 			projectRoot = "";
 			targets = (
 				D251F46826B410360050E874 /* Sandwich */,
+				D2DFA9F126BA6BEA00A31922 /* SandwichWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +237,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D2DFA9F026BA6BEA00A31922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DFA9FC26BA6BED00A31922 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +252,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D251F46F26B410360050E874 /* ContentView.swift in Sources */,
+				D2FA9D3426B91F3D00374BE1 /* SandwichStore.swift in Sources */,
+				D251F46F26B410360050E874 /* SandwichListView.swift in Sources */,
+				D2FA9D3926B93F0700374BE1 /* ContentView.swift in Sources */,
 				D251F46D26B410360050E874 /* SandwichApp.swift in Sources */,
+				D2FA9D2D26B91C4100374BE1 /* Sandwich.swift in Sources */,
+				D2FA9D3C26B940AA00374BE1 /* SandwichGallary.swift in Sources */,
+				D251F48026B4217C0050E874 /* SandwichDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DFA9EE26BA6BEA00A31922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DFA9FA26BA6BEA00A31922 /* SandwichWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DFA9FF26BA6BED00A31922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DFA9F126BA6BEA00A31922 /* SandwichWidgetExtension */;
+			targetProxy = D2DFA9FE26BA6BED00A31922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D251F47626B4103A0050E874 /* Debug */ = {
@@ -265,8 +400,10 @@
 		D251F47926B4103A0050E874 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sandwich/Sandwich.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sandwich/Preview Content\"";
 				DEVELOPMENT_TEAM = 25ACFT6PA7;
@@ -279,6 +416,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tk.Example.Sandwich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,8 +425,10 @@
 		D251F47A26B4103A0050E874 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sandwich/Sandwich.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Sandwich/Preview Content\"";
 				DEVELOPMENT_TEAM = 25ACFT6PA7;
@@ -301,6 +441,49 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tk.Example.Sandwich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2DFAA0226BA6BED00A31922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ACFT6PA7;
+				INFOPLIST_FILE = SandwichWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tk.Example.Sandwich.SandwichWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DFAA0326BA6BED00A31922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ACFT6PA7;
+				INFOPLIST_FILE = SandwichWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tk.Example.Sandwich.SandwichWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,6 +506,15 @@
 			buildConfigurations = (
 				D251F47926B4103A0050E874 /* Debug */,
 				D251F47A26B4103A0050E874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DFAA0126BA6BED00A31922 /* Build configuration list for PBXNativeTarget "SandwichWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DFAA0226BA6BED00A31922 /* Debug */,
+				D2DFAA0326BA6BED00A31922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
